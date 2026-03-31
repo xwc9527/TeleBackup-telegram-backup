@@ -8,10 +8,10 @@
   <a href="https://chatdex.cc/zh/blog" target="_blank" rel="noopener noreferrer"><img alt="Official Blog" src="https://img.shields.io/badge/官方博客-chatdex.cc%2Fzh%2Fblog-22C55E"></a>
   <a href="https://chatdex.cc/zh/download" target="_blank" rel="noopener noreferrer"><img alt="Version V1.2.1" src="https://img.shields.io/badge/Version-V1.2.1-F97316"></a>
   <img alt="Platform Windows 10 / 11 (64-bit)" src="https://img.shields.io/badge/平台支持-Windows%2010%20%2F%2011%20(64--bit)-6B7280">
-  <a href="https://pypi.org/project/teleget-downloader/" target="_blank" rel="noopener noreferrer"><img alt="PyPI teleget-downloader" src="https://img.shields.io/pypi/v/teleget-downloader?label=PyPI&logo=pypi&logoColor=white"></a>
+  <a href="https://pypi.org/project/telebackup-telegram-downloader/" target="_blank" rel="noopener noreferrer"><img alt="PyPI telebackup-telegram-downloader" src="https://img.shields.io/pypi/v/telebackup-telegram-downloader?label=PyPI&logo=pypi&logoColor=white"></a>
 </p>
 <p><strong>V1.2.1 封面预览：突破 Telegram 媒体保存限制，支持电报备份与频道搬家。</strong></p>
-<p><code>pip install teleget-downloader</code> 后运行 <code>teleget-downloader</code>，会在浏览器打开本仓库 <a href="https://github.com/xwc9527/TeleBackup-telegram-backup/releases">Releases</a>（仅跳转 GitHub，不含应用本体）。</p>
+<p><code>pip install telebackup-telegram-downloader</code> 后运行 <code>telebackup-telegram-downloader</code>（或 <code>telebackup</code>），会在浏览器打开本仓库 <a href="https://github.com/xwc9527/TeleBackup-telegram-backup/releases">Releases</a>（仅跳转 GitHub，不含应用本体）。</p>
 <p><a href="https://chatdex.cc" target="_blank" rel="noopener noreferrer">访问官方网站</a> · <a href="https://github.com/xwc9527/TeleBackup-telegram-backup" target="_blank" rel="noopener noreferrer">GitHub 仓库</a></p>
 </div>
 
