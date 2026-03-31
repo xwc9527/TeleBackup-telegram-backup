@@ -1,36 +1,91 @@
 # telebackup-telegram-downloader
 
-PyPI 上的包名为 **`telebackup-telegram-downloader`**（不含空格）。本包**不包含** TeleBackup 程序文件，只会在你运行命令时**用系统默认浏览器打开**官方 GitHub 仓库的 **Releases** 页面。
+> **关于本 PyPI 包**  
+> 本包为**轻量引导工具**：`pip install telebackup-telegram-downloader` 后运行 `telebackup-telegram-downloader` 或 `telebackup`，会用系统浏览器打开官方 **GitHub Releases** 页面。**不包含** TeleBackup 桌面程序本体；安装包请从 [Releases](https://github.com/xwc9527/TeleBackup-telegram-backup/releases) 或官网 [chatdex.cc](https://chatdex.cc/zh/download) 获取。  
+>  
+> 以下为 **TeleBackup** 产品说明（与仓库 / 官网介绍一致）。
 
-- 仓库：<https://github.com/xwc9527/TeleBackup-telegram-backup>
-- 官网：<https://chatdex.cc>
-
-安装（当前版本 **1.2.1**）：
+## 如何使用本 PyPI 包
 
 ```bash
 pip install telebackup-telegram-downloader
-```
-
-使用（打开最新 Release）：
-
-```bash
 telebackup-telegram-downloader
+# 或：telebackup
+# 或：python -m telebackup_telegram_downloader
 ```
 
-兼容别名：
+添加 `--repo` 可打开仓库主页（而非 Releases 最新页）。
 
-```bash
-telebackup
-```
+---
 
-或通过模块方式：
+## TeleBackup Telegram Downloader
 
-```bash
-python -m telebackup_telegram_downloader
-```
+**TeleBackup** —— 高效 Telegram 备份神器、媒体批量下载工具与频道智能同步助手。
 
-打开仓库主页（非 Releases）：
+TeleBackup 是一款专为 Telegram 用户打造的桌面端实用工具，采用 **Flet** 构建优雅现代的用户界面，底层依托 **Telethon** 协议实现稳定高效的交互。它能帮助用户轻松应对 Telegram 中常见的媒体保存难题，实现聊天记录的本地永久归档、大规模资源采集，以及频道 / 群组之间的智能内容同步。
 
-```bash
-telebackup-telegram-downloader --repo
-```
+如果你经常遇到官方客户端里图片视频显示灰色、提示「无法保存」、受保护内容无法下载，或者需要将重要频道完整搬运到新位置，TeleBackup 都能提供可靠的解决方案。它特别适合进行 **TG 批量下载**、**电报媒体备份**、**频道克隆镜像**、**群组内容迁移** 等操作，让数据管理从繁琐的手工劳动变成自动化流程。
+
+---
+
+## 主要解决的用户痛点
+
+- 官方客户端无法下载的受限媒体（灰色按钮、禁止保存提示等）
+- 大量频道 / 群组历史消息和资源的批量采集需求
+- 内容转发时结构丢失、相册拆散、顺序混乱等问题
+- 手动整理海量文件耗时耗力，难以快速搜索定位
+
+---
+
+## 核心功能一览
+
+- **智能下载系统**：支持照片、视频、文件、压缩包等多种格式的高速批量获取。内置断点续传、多线程并发和进度监控，即使面对数 GB 的大文件也能稳定处理，有效突破多数保存限制。
+- **结构化镜像同步**：可将源频道或群组的消息、媒体、话题讨论、评论区等完整复制到目标位置。支持规则自定义修改（链接替换、按钮调整、文案优化等），让克隆后的内容更干净、专业且结构完整。
+- **本地数据库归档**：所有消息自动保存到 **SQLite** 数据库中，支持关键词搜索、时间筛选、类型过滤等高级查询，随时在本地快速浏览和检索历史内容。
+- **灵活导出与整理**：一键导出为包含预览的 HTML 页面或结构化 CSV 文件。同时按频道、日期、文件类型自动生成清晰的文件夹目录，并提供自定义命名规则，极大简化后期管理。
+- **多账号便捷管理**：界面内统一添加和管理多个 Telegram 账号，支持直接导入 **Telegram Desktop** 的 `tdata` 会话文件，省去反复扫码登录的麻烦。
+- **增量智能处理**：仅同步新增或修改的内容，结合智能去重机制，避免重复下载和上传，节省时间与存储空间。
+
+### 贴心辅助特性
+
+- 完整支持论坛话题和评论区抓取  
+- 消息标签与个人收藏夹功能，方便标记重点内容  
+- 实时显示磁盘使用情况，提前预警空间不足  
+- 兼容系统代理及自定义 SOCKS5/HTTP 代理，适应不同网络条件  
+- 相册和媒体组原子级处理，确保顺序和完整性  
+- 可选 **Hash Breaker** 辅助模块：对文件做去重特征处理（一般**不改变**肉眼可见内容），用于应对部分平台基于哈希的重复判定；按需开启  
+
+---
+
+## 适合哪些用户
+
+- **个人用户**：希望本地保存喜欢的 Telegram 视频、图片和文档，建立自己的媒体资料库  
+- **频道运营者**：需要定期镜像重要内容、进行群组搬家或跨对话整理  
+- **资源收集爱好者**：批量下载受限媒体文件，实现长期归档  
+- **数据备份需求者**：完整拉取频道历史记录，进行本地搜索、导出和二次利用  
+
+不管你是寻找 Telegram 下载器、电报备份软件、TG 频道搬运工具、受保护内容保存器，还是智能镜像克隆助手，TeleBackup 都能成为你的得力帮手。
+
+---
+
+## 重要提醒
+
+本工具仅限 **个人合法** 的备份、归档与同步使用。请务必遵守 **Telegram 的服务条款** 及所在国家 / 地区的相关法律法规。程序产生的 `data/` 文件夹包含账号会话、配置和数据库等重要信息，请妥善保管并定期备份，切勿随意删除或分享，以免造成数据丢失或账号风险。
+
+**支持平台**：目前主要适配 **Windows 10 / 11（64 位）**，后续将持续扩展兼容性。  
+**当前产品版本**：**v1.2.1**（持续更新中，欢迎关注最新动态）。
+
+---
+
+## 相关搜索关键词
+
+telegram downloader · tg 下载器 · 电报备份 · telegram 媒体下载 · tg 频道克隆 · 电报群组搬家 · telegram 批量下载 · 受保护内容 · 禁止保存媒体 · tg 镜像同步 · telegram 归档工具 · 电报资源下载器 · telegram 视频图片下载 · tg 搬运助手 · 频道备份软件 · telethon · flet · telegram 本地搜索 · telegram 多账号管理 · 电报断点续传 · telegram 大文件下载 · tg 内容镜像 · 电报话题评论备份
+
+---
+
+## 链接
+
+- GitHub：<https://github.com/xwc9527/TeleBackup-telegram-backup>  
+- 官网：<https://chatdex.cc>  
+- 博客：<https://chatdex.cc/zh/blog>  
+- 下载：<https://chatdex.cc/zh/download>  
