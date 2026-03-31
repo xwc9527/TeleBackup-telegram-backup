@@ -26,8 +26,8 @@
 - [使用提醒](#使用提醒)
 - [系统要求](#系统要求)
 - [版本信息](#版本信息)
-- [技术支持](#技术支持)
 - [常见问题（FAQ）](#常见问题faq)
+- [技术支持](#技术支持)
 
 ---
 
@@ -116,16 +116,6 @@
 
 ---
 
-## 技术支持
-
-| 渠道 | 链接 / 地址 |
-|------|-------------|
-| 官网 | [https://chatdex.cc](https://chatdex.cc) |
-| Telegram | [t.me/telebackup_support](https://t.me/telebackup_support) |
-| 邮件 | asd569.zk@gmail.com |
-
----
-
 ## 常见问题（FAQ）
 
 **Q1：有免费版吗？**  
@@ -181,6 +171,16 @@ HTML（含媒体预览）、CSV 等；可按频道、时间范围或消息类型
 
 **Q18：`data/` 能删吗？**  
 包含 `app_config.json`、`download_config.json`、数据库与 session 等。**不要随意删除正在使用的账号目录**，以免丢数据或登录状态；重要数据请另做备份。
+
+---
+
+## 技术支持
+
+| 渠道 | 链接 / 地址 |
+|------|-------------|
+| 官网 | [https://chatdex.cc](https://chatdex.cc) |
+| Telegram | [t.me/telebackup_support](https://t.me/telebackup_support) |
+| 邮件 | asd569.zk@gmail.com |
 
 ---
 
