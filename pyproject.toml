@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teleget-downloader"
+version = "1.2.1"
+description = "在浏览器中打开 TeleBackup 的 GitHub 发布页；本包不包含应用本体，仅作安装引导。"
+readme = "README_PYPI.md"
+requires-python = ">=3.9"
+authors = [{ name = "TeleBackup Team" }]
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Environment :: Console",
+    "Topic :: Internet",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/xwc9527/TeleBackup-telegram-backup"
+Repository = "https://github.com/xwc9527/TeleBackup-telegram-backup"
+Documentation = "https://chatdex.cc/zh/blog"
+Download = "https://chatdex.cc/zh/download"
+
+[project.scripts]
+teleget-downloader = "teleget_downloader.cli:main"
+telebackup = "teleget_downloader.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["teleget_downloader*"]
