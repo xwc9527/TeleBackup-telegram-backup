@@ -2,6 +2,8 @@
 
 **Telegram 本地归档与智能克隆工具** — 基于 Flet 与 Telethon 的桌面应用，用于聊天记录归档、受保护媒体批量下载，以及频道 / 群组的智能镜像克隆。适合需要「TG 克隆」「电报警份」「批量下载」等场景的用户。
 
+![TeleBackup Telegram 客户端首页频道流预览，支持 TG 克隆与批量下载](assets/images/telebackup-telegram-client-home-feed-channel-clone-preview.png)
+
 ---
 
 ## 目录
