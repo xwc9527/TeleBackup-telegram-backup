@@ -2,8 +2,14 @@
 <p><strong>Telegram 本地归档与智能克隆工具</strong><br>基于 Flet 与 Telethon 的桌面应用，用于聊天记录归档、受保护媒体批量下载，以及频道 / 群组的智能镜像克隆。适合需要「TG 克隆」「电报备份」「频道搬家」等场景的用户（V1.2.1）。</p>
 
 ![TeleBackup V1.2.1 Telegram channel clone and backup app screenshot](telebackup-cover-v1.2.1.png)
+<p>
+  <a href="https://t.me/telebackup_support" target="_blank" rel="noopener noreferrer"><img alt="Telegram Channel" src="https://img.shields.io/badge/Telegram-@telebackup_support-2CA5E0?logo=telegram&logoColor=white"></a>
+  <a href="https://chatdex.cc/zh/blog" target="_blank" rel="noopener noreferrer"><img alt="Official Blog" src="https://img.shields.io/badge/官方博客-chatdex.cc%2Fzh%2Fblog-22C55E"></a>
+  <a href="https://chatdex.cc/zh/download" target="_blank" rel="noopener noreferrer"><img alt="Version V1.2.1" src="https://img.shields.io/badge/Version-V1.2.1-F97316"></a>
+  <img alt="Platform Windows 10 / 11 (64-bit)" src="https://img.shields.io/badge/平台支持-Windows%2010%20%2F%2011%20(64--bit)-6B7280">
+</p>
 <p><strong>V1.2.1 封面预览：突破 Telegram 媒体保存限制，支持电报备份与频道搬家。</strong></p>
-<p><a href="https://chaotdex.cc" target="_blank" rel="noopener noreferrer">访问官方网站</a></p>
+<p><a href="https://chatdex.cc" target="_blank" rel="noopener noreferrer">访问官方网站</a></p>
 
 ---
 
