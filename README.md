@@ -1,7 +1,9 @@
 <h1 style="font-size: 4rem; margin: 0 0 0.35rem 0;">TeleBackup</h1>
-<p><strong>Telegram 本地归档与智能克隆工具</strong><br>基于 Flet 与 Telethon 的桌面应用，用于聊天记录归档、受保护媒体批量下载，以及频道 / 群组的智能镜像克隆。适合需要「TG 克隆」「电报备份」「频道搬家」等场景的用户。</p>
+<p><strong>Telegram 本地归档与智能克隆工具</strong><br>基于 Flet 与 Telethon 的桌面应用，用于聊天记录归档、受保护媒体批量下载，以及频道 / 群组的智能镜像克隆。适合需要「TG 克隆」「电报备份」「频道搬家」等场景的用户（V1.2.1）。</p>
 
-![TeleBackup Telegram channel clone app screenshot for local archive and batch media download](telebackup-telegram-channel-clone-app-screenshot.png)
+![TeleBackup V1.2.1 Telegram channel clone and backup app screenshot](telebackup-cover-v1.2.1.png)
+<p><strong>V1.2.1 封面预览：突破 Telegram 媒体保存限制，支持电报备份与频道搬家。</strong></p>
+<p><a href="https://chaotdex.cc" target="_blank" rel="noopener noreferrer">访问官方网站</a></p>
 
 ---
 
