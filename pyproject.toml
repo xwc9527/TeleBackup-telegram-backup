@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "telebackup-telegram-downloader"
 version = "1.2.5"
-description = "轻量引导：打开 TeleBackup GitHub Releases；完整应用见 Release/官网。下文为产品功能说明�?
+description = "Lightweight launcher: opens TeleBackup GitHub Releases; full app is distributed via Releases/website."
 readme = "README_PYPI.md"
 requires-python = ">=3.9"
 authors = [{ name = "TeleBackup Team" }]
